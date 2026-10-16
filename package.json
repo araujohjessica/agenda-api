@@ -1,0 +1,28 @@
+{
+  "name": "agenda-api",
+  "version": "1.0.0",
+  "description": "API REST de agendamento (Express + SQLite + JWT).",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node scripts/e2e.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^10.0.13"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
+}
